@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="button1">#6baed9</drawable>
+    <drawable name="button11">#7dcdff</drawable>
+    <drawable name="button2">#0b55be</drawable>
+    <drawable name="button22">#0f6ef4</drawable>
+    <drawable name="button3">#5f3bb9</drawable>
+    <drawable name="button33">#7649e5</drawable>
+    <drawable name="button4">#9f00a5</drawable>
+    <drawable name="button44">#de00e5</drawable>
+    <drawable name="button5">#1868b1</drawable>
+    <drawable name="button55">#2075c3</drawable>
+    <drawable name="button6">#2A00FF</drawable>
+    <drawable name="button66">#f0f0</drawable>
+
+</resources>

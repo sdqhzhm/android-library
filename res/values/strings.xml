@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">HDU图书馆</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">HDU图书馆</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_book">BookActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_lend">LendActivity</string>
+    <string name="close">确定</string>
+    <string name="help_dialog_text"><i>作者: sky</i>    \n   
+    \n       <i>联系：sdqhzhm@gmail.com</i>    \n 
+    \n       <b>Tips: </b>
+    \n新增预约信息，借阅信息界面滑动查看
+    \n新增图书续借功能
+    \n新增图书到期提醒同步到Google日历功能   
+	\n图书馆网络连接速度较慢，请耐心使用
+	\n预约和预约取消功能仅支持自然书库（3F东）！
+	\n后续更新会在红色家园论坛放出，谢谢支持
+    \n   
+    \n       <b>有任何建议或者反馈可以随时联系作者</b></string>
+    <string name="title_activity_info">InfoActivity</string>
+
+</resources>

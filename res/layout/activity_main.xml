@@ -1,0 +1,108 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F3F3F3"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="20dp"
+            android:paddingTop="25dp"
+            android:text="图书馆"
+            android:textColor="#292f33"
+            android:textSize="38sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="#1868b1" >
+            </LinearLayout>
+
+                <Button
+                    android:id="@+id/searchButton2"
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:background="#1868b1" />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="236dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button1_selector"
+                android:text="简单检索"
+                android:textColor="#f4f4f4"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="115dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+
+
+                <Button
+                    android:id="@+id/aboutButton"
+                    android:layout_width="115dp"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/button2_selector"
+                    android:text="提示"
+                    android:textColor="#f4f4f4"
+                    android:textSize="24sp" />
+
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent" >
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/loginButton"
+                    android:layout_width="115dp"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/button3_selector"
+                    android:text="登录"
+                    android:textColor="#f4f4f4"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="5dp" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/lendButton"
+                android:layout_width="236dp"
+                android:layout_height="115dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button4_selector"
+                android:text="借阅信息"
+                android:textColor="#f4f4f4"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>
